@@ -1,0 +1,18 @@
+[
+    {
+      "filepath": "backend/logs/testlog.txt",
+      "content": "authentication failure detected",
+      "timestamp": "2025-04-26 14:00:00"
+    },
+    {
+      "filepath": "backend/logs/securelog.txt",
+      "content": "unauthorized access attempt",
+      "timestamp": "2025-04-26 14:15:23"
+    },
+    {
+      "filepath": "backend/logs/errorlog.txt",
+      "content": "failed password for root",
+      "timestamp": "2025-04-26 14:30:45"
+    }
+  ]
+  
