@@ -79,6 +79,9 @@ footer {
 @media (max-width: 600px) {
     .ascii-banner {
         font-size: 12px; 
+        text-align: center;
+        padding-top: 10px;
+
     }
 
     #stats {
