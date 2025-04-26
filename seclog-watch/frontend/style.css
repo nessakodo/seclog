@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f0f2f5;
+}
+
+h1 {
+    color: #333;
+}
+
+#events {
+    margin-top: 20px;
+}
+
+.event {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #007bff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}

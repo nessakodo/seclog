@@ -1,0 +1,11 @@
+{
+    "patterns": [
+      "authentication failure",
+      "unauthorized access",
+      "sudo",
+      "root login",
+      "connection refused",
+      "failed password"
+    ]
+  }
+  
