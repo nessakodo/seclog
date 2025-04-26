@@ -85,7 +85,7 @@ if __name__ == "__main__":
     observer = Observer()
     observer.schedule(event_handler, path, recursive=True)
         
-    print("\033[96m" + """
+    print("\033[32m" + """
     ███████╗███████╗ ██████╗██╗      ██████╗  ██████╗ 
     ██╔════╝██╔════╝██╔════╝██║     ██╔═══██╗██╔════╝ 
     ███████╗█████╗  ██║     ██║     ██║   ██║██║  ███╗
