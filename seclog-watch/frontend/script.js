@@ -1,5 +1,5 @@
 async function loadEvents() {
-    const response = await fetch('../backend/detected_events.json');
+    const response = await fetch('detected_events.json');
     const events = await response.json();
     const eventsDiv = document.getElementById('events');
     eventsDiv.innerHTML = '';
@@ -12,5 +12,6 @@ async function loadEvents() {
     });
 }
 
-// Load events on page load
+
+// Load on page load
 window.onload = loadEvents;
