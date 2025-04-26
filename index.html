@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecLog Dashboard</title>
+    <title>SecLog Watch Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🛡️ SecLog Watch Dashboard</h1>
-    <button onclick="loadEvents()">🔄 Refresh Logs</button>
-    <div id="events"></div>
+    <header>
+        <h1>🛡️ SecLog Watch</h1>
+        <p>Monitoring suspicious activity in real time...</p>
+        <div id="stats">
+            <span id="total-events">Total Events: 0</span> |
+            <span id="last-updated">Last Updated: --:--</span>
+        </div>
+    </header>
+
+    <main id="events"></main>
+
+    <footer>
+        <p>SecLog Watch © 2025</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
