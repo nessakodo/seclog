@@ -16,8 +16,12 @@
 
 ## 𝘓𝘪𝘷𝘦 𝘋𝘢𝘴𝘩𝘣𝘰𝘢𝘳𝘥
 
-[![View Dashboard](https://img.shields.io/badge/View_SecLog_Dashboard-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://nessakodo.github.io/seclog-watch/)
+<!-- [![View Dashboard](https://img.shields.io/badge/View_SecLog_Dashboard-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://nessakodo.github.io/seclog-watch/) -->
 
+![SecLog Dashboard](./assets/dashboard.png)
+
+
+#### *Currently, this implementation is just an example of what a live frontend would look like, V2 implementations include a working backend and frontend working together to monitor live activity.*
 ---
 
 ## 𝘏𝘰𝘸 𝘵𝘰 𝘙𝘶𝘯 𝘓𝘰𝘤𝘢𝘭𝘭𝘺
@@ -28,7 +32,7 @@
    cd seclog-watch
    ```
 
-2. 𝘙𝘶𝘯 𝘵𝘩𝘦 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘭𝘰𝘨 𝘮𝘰𝘯𝘪𝘵𝘰𝘳:
+<!-- 2. 𝘙𝘶𝘯 𝘵𝘩𝘦 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘭𝘰𝘨 𝘮𝘰𝘯𝘪𝘵𝘰𝘳:
    ```bash
    python backend/watcher.py
    ```
@@ -36,9 +40,17 @@
 3. 𝘙𝘶𝘯 𝘵𝘩𝘦 𝘍𝘭𝘢𝘴𝘬 𝘴𝘦𝘳𝘷𝘦𝘳:
    ```bash
    python backend/server.py
+   ``` -->
+
+2. 𝘙𝘶𝘯 𝘵𝘩𝘦 𝘧𝘳𝘰𝘯𝘵𝘦𝘯𝘥:
+   ```bash
+    cd frontend
+    python3 -m http.server 8000
    ```
 
-4. 𝘝𝘪𝘴𝘪𝘵 [http://localhost:5000](http://localhost:5000) 𝘪𝘯 𝘺𝘰𝘶𝘳 𝘣𝘳𝘰𝘸𝘴𝘦𝘳.
+3. 𝘝𝘪𝘴𝘪𝘵 𝘵𝘩𝘪𝘴 𝘭𝘪𝘯𝘬 𝘪𝘯 𝘺𝘰𝘶𝘳 𝘣𝘳𝘰𝘸𝘴𝘦𝘳.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[http://localhost:5000](http://localhost:8000)
 
 ---
 
